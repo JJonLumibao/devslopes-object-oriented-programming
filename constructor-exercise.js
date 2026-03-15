@@ -25,6 +25,7 @@ Book.prototype.changeGenre = function(newGenre) {
   return `Genre updated to ${newGenre}`;
 }
 
+// Testing
 const book1 = new Book('To Kill a Mockingbird', 'Harper Lee', 1960, 'Fiction');
 console.log(book1);
 console.log(book1.getSummary());
